@@ -12,6 +12,7 @@
 		04AD3B312568148500810450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AD3B2F2568148500810450 /* Main.storyboard */; };
 		04AD3B332568148700810450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AD3B322568148700810450 /* Assets.xcassets */; };
 		04AD3B362568148700810450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AD3B342568148700810450 /* LaunchScreen.storyboard */; };
+		04AD3B3E256814E100810450 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD3B3D256814E100810450 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04AD3B322568148700810450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AD3B352568148700810450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04AD3B372568148700810450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AD3B3D256814E100810450 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				04AD3B322568148700810450 /* Assets.xcassets */,
 				04AD3B342568148700810450 /* LaunchScreen.storyboard */,
 				04AD3B372568148700810450 /* Info.plist */,
+				04AD3B3D256814E100810450 /* CollectionViewCell.swift */,
 			);
 			path = projectBuku;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				04AD3B2E2568148500810450 /* ViewController.swift in Sources */,
 				04AD3B2C2568148500810450 /* AppDelegate.swift in Sources */,
+				04AD3B3E256814E100810450 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = projectBuku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.projectBuku;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = projectBuku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dicoding.academy.projectBuku;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
